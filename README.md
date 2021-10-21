@@ -108,12 +108,12 @@ cd where_you_want_to_save_results
 
 #### HMC to learn divergence time: Sars-CoV-2 example
 
-    * uMH (baseline comparison without HMC)
+* uMH (baseline comparison without HMC)
 	```
 	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_CPU -load_state where_this_repository_is_stored/hmc/SARS-CoV-2/checkpoint_covid1000_baseline -overwrite where_this_repository_is_stored/hmc/covid_1000_baseline_to_hmc.xml
 	```
 
-    * HMC
+* HMC
 	```
 	java -jar -Djava.library.path=/usr/local/lib where_beast_is_git_cloned/beast-mcmc/build/dist/beast.jar -beagle_CPU -load_state where_this_repository_is_stored/hmc/SARS-CoV-2/checkpoint_covid1000_hmc -overwrite where_this_repository_is_stored/xmls/WNV/covid_1000_hmc.xml
 	```
